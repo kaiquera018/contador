@@ -1,5 +1,5 @@
-import { exportarContagemPDF } from '@/utils/generatePDF';
-import { AdMobBanner } from 'expo-ads-admob';
+import { exportarContagemPDF } from '../utils/generatePDF';
+// import { AdMobBanner } from 'expo-ads-admob';
 import React from 'react';
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useCounter } from '../hooks/useCounter';
@@ -12,12 +12,12 @@ export default function Counter() {
       <View style={styles.container}>
 
         {/* Banner no topo */}
-        <AdMobBanner
+        {/* <AdMobBanner
           bannerSize="fullBanner"
           adUnitID="ca-app-pub-7608549463612808/1588920351" // ID de teste oficial (troque pelo seu real depois)
           servePersonalizedAds
           onDidFailToReceiveAdWithError={(err) => console.log(err)}
-        />
+        /> */}
 
         <ScrollView contentContainerStyle={styles.content}>
 
@@ -44,12 +44,12 @@ export default function Counter() {
         </ScrollView>
 
         {/* Banner no rodapé */}
-        <AdMobBanner
+        {/* <AdMobBanner
           bannerSize="fullBanner"
           adUnitID="ca-app-pub-7608549463612808/5903569883" // ID real
           servePersonalizedAds
           onDidFailToReceiveAdWithError={(err) => console.log(err)}
-        />
+        /> */}
       </View>
     </SafeAreaView>
   );

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "255216663460",
+    "project_id": "contador-cliques",
+    "storage_bucket": "contador-cliques.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255216663460:android:f86947527cb539fa249f31",
+        "android_client_info": {
+          "package_name": "com.kaique.contador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWz2gwG2qjssJtHFTiKPufHNntXkt_2Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
